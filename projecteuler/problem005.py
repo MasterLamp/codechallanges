@@ -3,84 +3,27 @@ number = 232790000
 ok = False
 
 while True:
-    if((number % 1) == 0):
+    if((number % 1) == 0) and \
+    ((number % 2) == 0) and \
+    ((number % 3) == 0) and \
+    ((number % 4) == 0) and \
+    ((number % 5) == 0) and \
+    ((number % 6) == 0) and \
+    ((number % 7) == 0) and \
+    ((number % 8) == 0) and \
+    ((number % 9) == 0) and \
+    ((number % 10) == 0) and \
+    ((number % 11) == 0) and \
+    ((number % 12) == 0) and \
+    ((number % 13) == 0) and \
+    ((number % 14) == 0) and \
+    ((number % 15) == 0) and \
+    ((number % 16) == 0) and \
+    ((number % 17) == 0) and \
+    ((number % 18) == 0) and \
+    ((number % 19) == 0) and \
+    ((number % 20) == 0):
         ok = True
-    else:
-        ok = False
-    if((number % 2) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 3) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 4) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 5) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 6) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 7) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 8) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 9) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 10) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 11) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 12) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 13) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 14) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 15) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 16) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 17) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 18) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 19) == 0):
-        ok = True and ok
-    else:
-        ok = False
-    if((number % 20) == 0):
-        ok = True and ok
     else:
         ok = False
     print("current number " + str(number))
