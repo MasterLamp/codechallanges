@@ -1,4 +1,4 @@
-#301365
+#shortcut to result
 number = 232790000
 ok = False
 
