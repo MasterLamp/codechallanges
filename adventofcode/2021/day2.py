@@ -2,7 +2,7 @@ import sys
 import time
 
 moveReads = []
-file = open('/home/masterlamps/adventofcode/2021/day2_input.txt', "r") 
+file = open('adventofcode/2021/day2_input.txt', "r") 
 for line in file: 
  moveReads += [line.replace("\n","")]
 

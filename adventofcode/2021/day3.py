@@ -2,7 +2,7 @@ import sys
 import time
 
 diagnosticReads = []
-file = open('/home/masterlamps/adventofcode/2021/day3_input.txt', "r") 
+file = open('adventofcode/2021/day3_input.txt', "r") 
 for line in file: 
  diagnosticReads += [line.replace("\n","")]
 

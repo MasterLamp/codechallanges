@@ -10,7 +10,7 @@ drawReads = [67,31,58,8,79,18,19,45,38,13,40,62,85,10,21,96,56,55,4,36,76,42,32,
 boardReads = []
 boardClassReads = []
 
-file = open('/home/masterlamps/adventofcode/2021/day4_input_boards.txt', "r") 
+file = open('adventofcode/2021/day4_input_boards.txt', "r") 
 readLineNo = 1
 curLine = 0
 for line in file:

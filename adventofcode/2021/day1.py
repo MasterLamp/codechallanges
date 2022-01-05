@@ -4,7 +4,7 @@ import time
 
 accForUpVote = hiveautomation.GetAccountsForUpVote(sys.argv[1])
 sonarreads = []
-file = open('/home/masterlamps/adventofcode/2021/day1_input.txt', "r") 
+file = open('adventofcode/2021/day1_input.txt', "r") 
 for line in file: 
  sonarreads += [line.replace("\n","")]
 
