@@ -1,6 +1,6 @@
 #shortcut to result
 number = 232790000
-ok = False
+ok = True
 
 while True:
     if((number % 1) == 0) and \
